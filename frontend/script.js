@@ -52,7 +52,7 @@ async function sendMessage() {
     addMessage(data.response, "bot-msg");
   } catch (error) {
     typingDiv.remove();
-    addMessage("⚠️ Oops! Something went wrong. Please try again.", "bot-msg");
+    addMessage("Oops! Something went wrong. Please try again.", "bot-msg");
     console.error("[Frontend Error]", error);
   }
 }
