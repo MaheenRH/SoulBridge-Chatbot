@@ -11,7 +11,6 @@ from transformers import pipeline
 from logger import log_interaction, log_error, log_session_start, log_session_end
 from typing import Optional
 
-# ✅ Load environment variables
 load_dotenv()
 
 
@@ -25,11 +24,11 @@ class MentalHealthChatbot:
             model="j-hartmann/emotion-english-distilroberta-base"
         )
 
-        # 💾 Persistent memory file
+        #Persistent memory file
         self.memory_file = Path("data/memory_store.json")
         self.memory_file.parent.mkdir(exist_ok=True)
 
-        # 💾 In-memory session store
+        #In-memory session store
         self.sessions = {}
 
         # Load memory from disk if available
@@ -59,7 +58,7 @@ class MentalHealthChatbot:
     def chat(self, message: str, session_id: Optional[str] = None):
         """Main chat handler. Manages sessions, detects emotion, and generates response."""
         try:
-            # 1️⃣ Create or retrieve session
+            # Create or retrieve session
             if not session_id:
                 session_id = str(uuid.uuid4())
                 self.sessions[session_id] = ConversationBufferMemory(return_messages=True)
@@ -71,7 +70,7 @@ class MentalHealthChatbot:
             memory = self.sessions[session_id]
             lower_msg = message.lower()
 
-            # 2️⃣ Crisis detection
+            # Crisis detection
             crisis_keywords = [
                 "suicide", "kill myself", "end my life",
                 "hurt myself", "no reason to live"
@@ -88,7 +87,7 @@ class MentalHealthChatbot:
                 self.save_memory()
                 return {"session_id": session_id, "response": crisis_response}
 
-            # 3️⃣ Greeting detection
+            # Greeting detection
             greetings = ["hello", "hi", "hey", "how are you", "good morning", "good evening"]
             if any(word in lower_msg for word in greetings):
                 short_reply = "Hi there! 😊 I'm doing well and happy to chat. How are you feeling today?"
