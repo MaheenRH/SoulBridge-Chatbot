@@ -18,5 +18,5 @@ It listens, reflects, and provides gentle, empathetic support through natural co
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/<your-username>/MindEase-Chatbot.git
+git clone https://github.com/<your-username>/SoulBridge-Chatbot.git
 cd MindEase-Chatbot
