@@ -2,10 +2,6 @@ import logging
 import os
 from datetime import datetime
 
-# =====================================
-# 🧠 Logger Configuration
-# =====================================
-
 # Ensure logs directory exists
 LOG_DIR = "logs"
 os.makedirs(LOG_DIR, exist_ok=True)
@@ -24,10 +20,6 @@ logging.basicConfig(
 )
 
 logger = logging.getLogger("chatbot_logger")
-
-# =====================================
-# 🧩 Helper Functions
-# =====================================
 
 def log_interaction(session_id: str, user_message: str, bot_reply: str, emotion: str = None, is_crisis: bool = False):
     """Logs each interaction between the user and the chatbot."""
