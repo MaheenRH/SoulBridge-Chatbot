@@ -18,10 +18,8 @@ load_dotenv()
 class MentalHealthChatbot:
     def __init__(self):
         """Initialize models, prompt templates, and persistent session store."""
-        # 🧠 LLM setup
         self.llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.8)
 
-        # 🧩 Emotion classifier
         self.emotion_classifier = pipeline(
             "sentiment-analysis",
             model="j-hartmann/emotion-english-distilroberta-base"
@@ -37,7 +35,6 @@ class MentalHealthChatbot:
         # Load memory from disk if available
         self.load_memory()
 
-        # 📝 Prompt template
         self.template = """
         You are a compassionate mental health support assistant.
         The user currently feels {emotion}.
@@ -58,9 +55,7 @@ class MentalHealthChatbot:
             template=self.template
         )
 
-    # ===============================
-    # 💬 Core Chat Function
-    # ===============================
+  
     def chat(self, message: str, session_id: Optional[str] = None):
         """Main chat handler. Manages sessions, detects emotion, and generates response."""
         try:
@@ -101,23 +96,21 @@ class MentalHealthChatbot:
                 self.save_memory()
                 return {"session_id": session_id, "response": short_reply}
 
-            # 4️⃣ Emotion detection
+          
             emotion = self.emotion_classifier(message)[0]["label"]
 
-            # 5️⃣ Create modern chain pipeline
+         
             chain = RunnableSequence(self.prompt | self.llm)
 
-            # 6️⃣ Prepare inputs
             inputs = {
                 "emotion": emotion,
                 "history": memory.buffer_as_str if hasattr(memory, "buffer_as_str") else "",
                 "user_message": message,
             }
 
-            # 7️⃣ Generate response
             result = chain.invoke(inputs)
 
-            # 8️⃣ Log + Return + Save to persistent memory
+       
             log_interaction(session_id, message, result.content, emotion)
             self.save_memory()
 
@@ -134,9 +127,6 @@ class MentalHealthChatbot:
                 "response": "⚠️ Sorry, something went wrong. Please try again later.",
             }
 
-    # ===============================
-    # 💾 Persistent Memory Functions
-    # ===============================
     def save_memory(self):
         """Save all session memory to disk."""
         try:
@@ -164,9 +154,7 @@ class MentalHealthChatbot:
         except Exception as e:
             print(f"[Load Memory Error] {e}")
 
-    # ===============================
-    # 🧹 Session Management
-    # ===============================
+   
     def end_session(self, session_id: str):
         """Ends a chat session."""
         if session_id in self.sessions:
