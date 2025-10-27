@@ -1,0 +1,61 @@
+2025-10-27 16:42:15,137 | INFO | 🔹 New session started: 1826166e-a1b7-4711-9c21-e6e4199408ec
+2025-10-27 16:42:21,315 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:42:21,326 | INFO | Session: 1826166e-a1b7-4711-9c21-e6e4199408ec | Emotion: surprise | User: hello how are you | Bot: Hello! I'm here for you, and I'm glad you reached out. It seems like you're feeling surprised right now—such a powerful emotion! It's completely okay to feel that way. Sometimes, unexpected situations can really catch us off guard. 
+
+When you're feeling surprised, it might help to take a moment to pause and breathe. Deep breathing can ground you and bring a sense of calm. Try inhaling slowly for four counts, holding for four counts, and exhaling for four counts. This can help soothe your nervous system and bring clarity to your thoughts.
+
+If you're comfortable, reflecting on what caused this surprise can also be insightful. Journaling about it or talking to someone you trust can help you process your feelings. Remember, it’s perfectly okay to feel what you’re feeling, and taking care of yourself during these moments is really important. 
+
+I’m here to listen if you want to share more about what’s on your mind!
+2025-10-27 16:53:28,101 | INFO | 🔹 New session started: 007dc3ea-f91d-4465-85d8-695ee118e3f4
+2025-10-27 16:53:28,101 | INFO | Session: 007dc3ea-f91d-4465-85d8-695ee118e3f4 | Emotion: None | User: hey how areyou | Bot: Hi there! 😊 I'm doing well and happy to chat. How are you feeling today?
+2025-10-27 16:53:48,991 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:53:49,025 | INFO | Session: 007dc3ea-f91d-4465-85d8-695ee118e3f4 | Emotion: fear | User: im stressed over exams | Bot: I'm really sorry to hear that you're feeling stressed over your exams. It’s completely understandable to feel this way, especially when there’s so much pressure. Remember that it’s okay to acknowledge your feelings; you're not alone in this.
+
+Here are a few gentle techniques that might help you manage that stress:
+
+1. **Deep Breathing**: Take a moment to close your eyes and focus on your breath. Inhale deeply through your nose, hold for a moment, and then exhale slowly through your mouth. Doing this a few times can help calm your mind and body.
+
+2. **Break It Down**: If you have a lot to study, try breaking your study sessions into smaller, manageable chunks. Set a timer for 25 minutes of focused study, followed by a 5-minute break. This can make the material feel less overwhelming.
+
+3. **Positive Affirmations**: Remind yourself that you are capable and prepared. Phrases like “I am doing my best” or “I can handle this” can sometimes help shift your mindset from fear to confidence.
+
+4. **Talk About It**: Sometimes, sharing your worries with someone you trust can lighten the load. Whether it's a friend, family member, or teacher, expressing how you feel can be incredibly relieving.
+
+5. **Self-Care**: Make sure to take care of yourself during this time. Getting enough sleep, eating well, and taking short breaks to do something you enjoy can help maintain your energy and focus.
+
+You’re doing the best you can, and that’s all anyone can ask for. It’s okay to feel a bit anxious; just remember to take things one step at a time. You’ve got this!
+2025-10-27 17:04:32,877 | INFO | 🔹 New session started: dad8aa7c-3b6b-47ca-b015-b14df6f13baa
+2025-10-27 17:04:42,087 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:04:42,120 | INFO | Session: dad8aa7c-3b6b-47ca-b015-b14df6f13baa | Emotion: sadness | User: i feel stressed | Bot: I'm really sorry to hear that you're feeling stressed. It's completely understandable to experience these feelings, and it's important to acknowledge them. You're not alone in this, and it's okay to seek support.
+
+When you're ready, here are a few gentle self-care techniques that might help you cope with that stress:
+
+1. **Deep Breathing**: Take a moment to close your eyes and take a few deep breaths. Inhale for a count of four, hold for four, and then exhale for a count of six. This can help calm your mind and bring you back to a more grounded state.
+
+2. **Nature Connection**: If possible, step outside and take in the sights and sounds around you. Even a few minutes in nature can be refreshing and help to lift your spirits.
+
+3. **Journaling**: Writing about your thoughts and feelings can provide a sense of release. Just let your pen flow without worrying about grammar or structure. It can be liberating to express yourself this way.
+
+4. **Physical Activity**: Even a short walk or some gentle stretching can do wonders for your mood. Movement can help release endorphins, which might help you feel a bit lighter.
+
+5. **Reach Out**: Sometimes, just talking to someone about what you're going through can be incredibly helpful. Whether it’s a friend, family member, or someone you trust, sharing can lighten the load.
+
+Remember, it’s okay to feel what you’re feeling, and taking small steps can make a difference. You are doing your best and that’s something to be proud of. If you’d like to share more about what’s been on your mind, I’m here to listen.
+2025-10-27 17:06:23,998 | INFO | 🔹 New session started: c33141ea-8356-40e1-9fd3-2377cd5c6f24
+2025-10-27 17:06:33,060 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:06:33,077 | INFO | Session: c33141ea-8356-40e1-9fd3-2377cd5c6f24 | Emotion: sadness | User: i feel stressed | Bot: I'm really sorry to hear that you're feeling stressed. It's completely understandable to feel this way sometimes, and it's important to acknowledge those feelings. You're not alone in this.
+
+When it comes to managing stress, there are some gentle self-care techniques you might find helpful. Here are a few to consider:
+
+1. **Deep Breathing**: Try taking a few minutes to focus on your breath. Inhale slowly through your nose for a count of four, hold it for four, and then exhale through your mouth for a count of six. This can help calm your mind and body.
+
+2. **Mindfulness or Meditation**: Spending a few moments in mindfulness can help ground you. You could sit quietly, close your eyes, and focus on the sensations around you or the rhythm of your breath. There are many apps and online resources that can guide you through short meditation practices.
+
+3. **Physical Movement**: Engaging in some light physical activity, like a walk outside or gentle stretching, can be a great way to release tension and boost your mood. Nature can be particularly soothing if you have access to it.
+
+4. **Journaling**: Writing down your thoughts and feelings can provide an outlet for your emotions. You might consider jotting down what’s weighing on your mind or even things you're thankful for.
+
+5. **Connect with Others**: If you feel comfortable, reaching out to a friend or loved one for a chat can really help. Sometimes just talking about how you feel can lift some of the weight off your shoulders.
+
+Remember, it’s okay to take a step back and prioritize your well-being. You deserve care and kindness, especially during tough times. If you ever feel overwhelmed, reaching out to someone you trust can make a big difference. You’re doing your best, and that’s what truly matters.

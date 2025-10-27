@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoulBridge – Your Mental Health Companion 💬</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 🌿 Site Header / Intro -->
+  <section class="welcome-section">
+    <h1>🌿 SoulBridge</h1>
+    <p class="tagline">Your pocket companion for emotional wellness.</p>
+    <p class="description">
+      SoulBridge helps you express your thoughts, reflect on your emotions, and find comfort through
+      calm, empathetic conversations. It’s a space to be heard — anytime, anywhere.
+    </p>
+  </section>
+
+  <!-- 💬 Floating Chat Button -->
+  <button id="chat-toggle" class="chat-toggle">
+    💬
+  </button>
+
+  <!-- 🧠 Chat Popup -->
+  <div class="chat-popup" id="chat-popup">
+    <div class="chat-header">
+      <h2>SoulBridge Chatbot</h2>
+      <button id="close-chat" class="close-btn">✖</button>
+    </div>
+
+    <div id="chat-box" class="chat-box">
+      <div class="bot-msg">👋 Hello! I’m here for you. How are you feeling today?</div>
+    </div>
+
+    <div class="input-container">
+      <input
+        id="user-input"
+        type="text"
+        placeholder="Type your message..."
+        autocomplete="off"
+      />
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

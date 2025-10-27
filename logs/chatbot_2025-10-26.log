@@ -1,0 +1,57 @@
+2025-10-26 23:05:47,131 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-10-26 23:05:47,134 | INFO | Retrying request to /embeddings in 0.377645 seconds
+2025-10-26 23:05:48,152 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-10-26 23:05:48,153 | INFO | Retrying request to /embeddings in 0.966047 seconds
+2025-10-26 23:05:49,656 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-10-26 23:12:56,124 | INFO | 🔹 New session started: 8d6d1ee9-1c5d-49b4-8088-98d54e8e4544
+2025-10-26 23:13:06,985 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-26 23:13:07,007 | ERROR | [ERROR] Session: 8d6d1ee9-1c5d-49b4-8088-98d54e8e4544 | One input key expected got ['user_message', 'emotion']
+2025-10-26 23:19:25,945 | INFO | 🔹 New session started: 58fa498f-57ed-4448-b4ff-5c8238c2415c
+2025-10-26 23:19:32,730 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-26 23:19:32,760 | ERROR | [ERROR] Session: 58fa498f-57ed-4448-b4ff-5c8238c2415c | One input key expected got ['user_message', 'emotion']
+2025-10-26 23:30:43,039 | INFO | 🔹 New session started: 31246bcb-7e99-4b00-871a-c8a46c91232e
+2025-10-26 23:30:49,411 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-26 23:30:49,425 | ERROR | [ERROR] Session: 31246bcb-7e99-4b00-871a-c8a46c91232e | One input key expected got ['user_message', 'emotion']
+2025-10-26 23:34:43,268 | INFO | 🔹 New session started: 6b5406fd-da4d-4737-a15d-c3709aa7410d
+2025-10-26 23:34:53,009 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-26 23:34:53,024 | ERROR | [ERROR] Session: 6b5406fd-da4d-4737-a15d-c3709aa7410d | One input key expected got ['user_message', 'emotion']
+2025-10-26 23:38:24,629 | INFO | 🔹 New session started: 954b3dfa-ada0-4bd2-856b-1db19b865127
+2025-10-26 23:38:33,141 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-26 23:38:33,164 | ERROR | [ERROR] Session: 954b3dfa-ada0-4bd2-856b-1db19b865127 | One input key expected got ['user_message', 'emotion']
+2025-10-26 23:42:42,363 | INFO | 🔹 New session started: 4f9ca3d9-bdb8-41ed-8a58-76a177b805a7
+2025-10-26 23:42:48,681 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-26 23:42:48,701 | ERROR | [ERROR] Session: 4f9ca3d9-bdb8-41ed-8a58-76a177b805a7 | One input key expected got ['emotion', 'user_message']
+2025-10-26 23:48:32,051 | INFO | 🔹 New session started: 23ec70ca-144a-4944-a9ed-d70c252b5fb6
+2025-10-26 23:48:36,014 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-26 23:48:36,024 | INFO | Session: 23ec70ca-144a-4944-a9ed-d70c252b5fb6 | Emotion: sadness | User: I feel a bit down today. | Bot: I'm really sorry to hear that you're feeling down today. It's completely normal to experience such feelings, and it's okay to take a moment to acknowledge them. Remember, you’re not alone in this.
+
+When you're feeling low, it can be helpful to engage in some gentle self-care activities. Here are a few suggestions:
+
+1. **Connect with Nature**: If you can, try to spend some time outside. A short walk or even just sitting in a park can help lift your spirits. Nature has a wonderful way of soothing our minds.
+
+2. **Practice Mindfulness**: Taking a few minutes to focus on your breathing can be quite calming. Try inhaling deeply for a count of four, holding for four, and exhaling for four. This can help bring your thoughts into the present moment.
+
+3. **Journaling**: Writing down your thoughts and feelings can be a great release. You might find it helpful to jot down what’s on your mind or even list things you’re grateful for, no matter how small.
+
+4. **Reach Out**: Sometimes, talking to a friend or loved one about how you’re feeling can really help. You don’t have to go through this alone; sharing your feelings can lighten the load.
+
+5. **Do Something You Enjoy**: Whether it’s reading, watching a favorite show, or engaging in a hobby, doing something that brings you joy can provide a nice distraction and uplift your mood.
+
+Remember, it’s okay to take things one step at a time. You're doing your best, and that is enough. If you want to talk more about how you’re feeling, I'm here for you.
+2025-10-27 16:27:46,184 | INFO | 🔹 New session started: 1234
+2025-10-27 16:27:56,753 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:27:56,801 | INFO | Session: 1234 | Emotion: sadness | User: hi, im feeling down | Bot: I'm really sorry to hear that you're feeling this way. It's completely okay to have days when you feel down, and I want you to know that you're not alone in this. Your feelings are valid, and it's important to take the time to acknowledge them.
+
+When you're ready, here are a few gentle self-care techniques that might help lift your mood:
+
+1. **Connect with Nature**: Spending even a short amount of time outside can be uplifting. Consider taking a walk, sitting in a park, or simply enjoying some fresh air. Nature can often bring a sense of calm.
+
+2. **Practice Mindfulness**: Taking a few moments to breathe deeply and focus on the present can be grounding. Try to find a quiet space, close your eyes, and take deep, slow breaths. Notice how your body feels with each inhale and exhale.
+
+3. **Journaling**: Writing down your thoughts and feelings can be a powerful way to process emotions. You might want to jot down what’s bothering you or even list things you’re grateful for, which can help shift your perspective.
+
+4. **Connect with Loved Ones**: Reach out to someone you trust. Sharing your feelings with a friend or family member can provide comfort and support.
+
+5. **Engage in Activities You Enjoy**: Think about things that usually bring you joy or relaxation, whether it’s reading, drawing, listening to music, or watching a favorite show. Engaging in enjoyable activities can create little moments of happiness.
+
+Remember that it's perfectly okay to take things one step at a time. Be kind to yourself during this process. If there’s anything specific you’d like to talk about or anything else I can do to support you, please let me know.
