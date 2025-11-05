@@ -14,6 +14,9 @@ It listens, reflects, and provides gentle, empathetic support through natural co
 
 ---
 
+<img width="1441" height="803" alt="Screenshot 2025-11-05 at 12 01 38 AM" src="https://github.com/user-attachments/assets/2468d1bf-9956-4585-b4fa-08241ba4d74c" />
+
+
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the repository
